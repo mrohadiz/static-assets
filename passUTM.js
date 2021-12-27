@@ -45,7 +45,7 @@ if (utmParamQueryString.length > 0) {
 })();
 
 // Grab all links you want to target - change the class to whatever you are using i.e .utm-passthrough
-var navlinks = document.querySelectorAll('a.utm-passthrough');
+var navlinks = document.querySelectorAll('a');
 // Loop through all links
 Array.prototype.forEach.call(links, function (link) {
        // Take the href and append the UTM parameters
